@@ -1,0 +1,113 @@
+.
+├── LICENSE
+├── README.md
+├── RamHos_DigitalMarketingAIOptimization.ipynb.ipynb
+├── app
+│   ├── api
+│   │   └── main.py
+│   ├── dashboard
+│   │   └── app.py
+│   └── requirements.txt
+├── app_run.ipynb
+├── cd
+├── config
+│   └── config.py
+├── data
+│   ├── processed
+│   │   ├── combined_ad_data.csv
+│   │   ├── feature_engineered_data.csv
+│   │   └── featured_data_with_anomalies.csv
+│   ├── raw
+│   │   ├── googleads-performance.csv
+│   │   ├── metaads-performance.csv
+│   │   ├── microsoftads-performance.csv
+│   │   └── website-landings.csv
+│   └── synthetic
+│       └── synthetic_ad_data.csv
+├── docker_file_content.txt
+├── file_structure.txt
+├── logger.py
+├── notebooks
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_in_depth_analysis.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_model_development.ipynb
+│   ├── 05_model_evaluation.ipynb
+│   ├── 06_synthetic_data_generation.ipynb
+│   └── main.ipynb
+├── plots
+│   ├── 02_in_depth_analysis
+│   │   ├── anomaly_detection.png
+│   │   ├── correlation_heatmap.png
+│   │   ├── current_budget_allocation.png
+│   │   ├── efficiency_metric_CTR.png
+│   │   ├── efficiency_metric_CVR.png
+│   │   ├── efficiency_metric_ROAS.png
+│   │   ├── platform_comparison_CPC.png
+│   │   ├── platform_comparison_CTR.png
+│   │   ├── platform_comparison_CVR.png
+│   │   ├── platform_comparison_Clicks.png
+│   │   ├── platform_comparison_Conversions.png
+│   │   ├── platform_comparison_Impressions.png
+│   │   ├── platform_comparison_ROAS.png
+│   │   ├── platform_comparison_Revenue.png
+│   │   ├── platform_comparison_Spend.png
+│   │   ├── revenue_distribution.png
+│   │   ├── time_series_decomposition_Conversions.png
+│   │   ├── time_series_decomposition_Revenue.png
+│   │   ├── time_series_decomposition_Spend.png
+│   │   └── top_campaigns_ROAS.png
+│   ├── ROAS_campaign_wise.png
+│   ├── correlation_heatmap.png
+│   ├── distribution_of_key_metrics.png
+│   ├── performance_by_score.png
+│   ├── spend_vs_revenue_by_source.png
+│   └── timeseries_key_metrics.png
+├── requirements.txt
+├── setup.py
+├── src
+│   ├── data
+│   │   ├── __pycache__
+│   │   │   ├── data_loader.cpython-310.pyc
+│   │   │   └── data_preprocessor.cpython-310.pyc
+│   │   ├── data_loader.py
+│   │   └── data_preprocessor.py
+│   ├── features
+│   │   ├── __pycache__
+│   │   │   ├── feature_engineering.cpython-310.pyc
+│   │   │   └── feature_selection.cpython-310.pyc
+│   │   ├── feature_engineering.py
+│   │   └── feature_selection.py
+│   ├── models
+│   │   ├── __pycache__
+│   │   │   ├── ensemble_model.cpython-310.pyc
+│   │   │   ├── model_evaluator.cpython-310.pyc
+│   │   │   ├── model_trainer.cpython-310.pyc
+│   │   │   └── time_series_models.cpython-310.pyc
+│   │   ├── ensemble_model.py
+│   │   ├── model_evaluator.py
+│   │   ├── model_trainer.py
+│   │   └── time_series_models.py
+│   ├── synthetic
+│   │   ├── __pycache__
+│   │   │   └── synthetic_data_generator.cpython-310.pyc
+│   │   └── synthetic_data_generator.py
+│   └── utils
+│       ├── __pycache__
+│       │   ├── anomaly_detection.cpython-310.pyc
+│       │   ├── causality_analysis.cpython-310.pyc
+│       │   ├── model_interpretation.cpython-310.pyc
+│       │   ├── online_learning.cpython-310.pyc
+│       │   └── visualization.cpython-310.pyc
+│       ├── anomaly_detection.py
+│       ├── causality_analysis.py
+│       ├── experiment_tracker.py
+│       ├── model_interpretation.py
+│       ├── monitoring.py
+│       ├── online_learning.py
+│       ├── visualization.py
+│       └── visualizations_app.py
+└── tests
+    └── test_api.py
+
+23 directories, 87 files
