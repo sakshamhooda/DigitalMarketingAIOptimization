@@ -2,8 +2,12 @@
 ├── LICENSE
 ├── README.md
 ├── RamHos_DigitalMarketingAIOptimization.ipynb.ipynb
+├── __pycache__
+│   └── updated_data_loader.cpython-310.pyc
 ├── app
 │   ├── api
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-310.pyc
 │   │   └── main.py
 │   ├── dashboard
 │   │   └── app.py
@@ -25,8 +29,14 @@
 │   └── synthetic
 │       └── synthetic_ad_data.csv
 ├── docker_file_content.txt
+├── documentation
+│   ├── DataPreprocessing.md
+│   └── FeaturePreprocessing.md
 ├── file_structure.txt
 ├── logger.py
+├── netelixir_dashboard_1.png
+├── netelixir_dashboard_2.png
+├── ngrok
 ├── notebooks
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_in_depth_analysis.ipynb
@@ -66,6 +76,9 @@
 ├── requirements.txt
 ├── setup.py
 ├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-310.pyc
 │   ├── data
 │   │   ├── __pycache__
 │   │   │   ├── data_loader.cpython-310.pyc
@@ -79,7 +92,9 @@
 │   │   ├── feature_engineering.py
 │   │   └── feature_selection.py
 │   ├── models
+│   │   ├── __init__.py
 │   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-310.pyc
 │   │   │   ├── ensemble_model.cpython-310.pyc
 │   │   │   ├── model_evaluator.cpython-310.pyc
 │   │   │   ├── model_trainer.cpython-310.pyc
@@ -98,7 +113,8 @@
 │       │   ├── causality_analysis.cpython-310.pyc
 │       │   ├── model_interpretation.cpython-310.pyc
 │       │   ├── online_learning.cpython-310.pyc
-│       │   └── visualization.cpython-310.pyc
+│       │   ├── visualization.cpython-310.pyc
+│       │   └── visualizations_app.cpython-310.pyc
 │       ├── anomaly_detection.py
 │       ├── causality_analysis.py
 │       ├── experiment_tracker.py
@@ -107,7 +123,8 @@
 │       ├── online_learning.py
 │       ├── visualization.py
 │       └── visualizations_app.py
-└── tests
-    └── test_api.py
+├── tests
+│   └── test_api.py
+└── updated_data_loader.py
 
-23 directories, 87 files
+27 directories, 100 files
